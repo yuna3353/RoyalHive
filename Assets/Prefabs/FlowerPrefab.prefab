@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7905969235241865181}
   - component: {fileID: 154489363210002818}
   - component: {fileID: 6265212574662618175}
+  - component: {fileID: 290125276312217486}
   m_Layer: 0
   m_Name: FlowerPrefab
   m_TagString: Untagged
@@ -141,5 +142,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a2f0bcaa2a0b8438231eda63d5dd42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  objectType: 2
+  objectType: 1
   refundAmount: 30
+--- !u!114 &290125276312217486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495975393535279322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93bdaa57bd2e16c4481ef5b1d6482b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForageSource
+  displayName: Spring flower
+  category: 1
+  honeyName: Flower Honey
+  description: 
+  bloomPeriods:
+  - season: 0
+    startDay: 1
+    endDay: 10
+  canBeVisited: 1
+  honeyPerVisit: 1
+  collectDuration: 5
+  maxSimultaneousBees: 1
+  nectarCooldown: 3
+  visitRadius: 0.35

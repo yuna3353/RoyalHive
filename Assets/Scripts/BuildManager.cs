@@ -16,20 +16,21 @@ public class BuildManager : MonoBehaviour
     [Serializable]
     public class BuildOption
     {
+        [Header("표시 정보")]
         public string displayName;
 
+        [Header("종류와 설치 구역")]
         public PlaceableObject.PlaceableType objectType;
-
         public BuildZone.ZoneType requiredZone;
 
+        [Header("Prefab과 부모")]
         public GameObject prefab;
-
         public Transform parent;
 
+        [Header("가격과 점유 크기")]
         [Min(0)]
         public int cost;
 
-        [Tooltip("겹침 판정에 사용할 오브젝트 크기입니다.")]
         public Vector2 footprint = Vector2.one;
     }
 
@@ -44,14 +45,15 @@ public class BuildManager : MonoBehaviour
     [Min(0)]
     [SerializeField] private int startingMoney = 1000;
 
-    [Header("설치 설정")]
+    [Header("설치 격자")]
+    [Min(0.1f)]
     [SerializeField] private float gridSize = 1f;
 
-    [SerializeField] private BuildOption hiveOption;
-    [SerializeField] private BuildOption cherryTreeOption;
+    [Header("건설 가능한 목록")]
+    [SerializeField] private BuildOption[] buildOptions;
 
     private int currentMoney;
-    private BuildMode currentMode = BuildMode.None;
+    private BuildMode currentMode;
     private BuildOption selectedOption;
 
     public int CurrentMoney => currentMoney;
@@ -64,6 +66,7 @@ public class BuildManager : MonoBehaviour
         }
 
         currentMoney = startingMoney;
+        currentMode = BuildMode.None;
 
         UpdateMoneyUI();
 
@@ -75,7 +78,8 @@ public class BuildManager : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current == null || worldCamera == null)
+        if (Mouse.current == null ||
+            worldCamera == null)
         {
             return;
         }
@@ -91,11 +95,11 @@ public class BuildManager : MonoBehaviour
             return;
         }
 
-        Vector2 mouseScreenPosition =
+        Vector2 screenPosition =
             Mouse.current.position.ReadValue();
 
         Vector2 worldPosition =
-            worldCamera.ScreenToWorldPoint(mouseScreenPosition);
+            worldCamera.ScreenToWorldPoint(screenPosition);
 
         if (currentMode == BuildMode.Build)
         {
@@ -109,58 +113,45 @@ public class BuildManager : MonoBehaviour
 
     public void OpenBuildPanel()
     {
+        CancelCurrentMode();
+
         if (buildPanel != null)
         {
             buildPanel.SetActive(true);
         }
-
-        CancelCurrentMode();
     }
 
     public void CloseBuildPanel()
     {
-        if (buildPanel != null)
-        {
-            buildPanel.SetActive(false);
-        }
-
         CancelCurrentMode();
-    }
-
-    public void SelectHive()
-    {
-        SelectBuildOption(hiveOption);
-    }
-
-    public void SelectCherryTree()
-    {
-        SelectBuildOption(cherryTreeOption);
-    }
-
-    public void SelectRemoveMode()
-    {
-        selectedOption = null;
-        currentMode = BuildMode.Remove;
 
         if (buildPanel != null)
         {
             buildPanel.SetActive(false);
         }
-
-        Debug.Log("제거 모드가 활성화되었습니다.");
     }
 
-    public void CancelCurrentMode()
+    public void SelectBuildOptionByIndex(int index)
     {
-        selectedOption = null;
-        currentMode = BuildMode.None;
-    }
+        if (buildOptions == null ||
+            index < 0 ||
+            index >= buildOptions.Length)
+        {
+            Debug.LogWarning(
+                $"잘못된 Build Option 인덱스: {index}"
+            );
 
-    private void SelectBuildOption(BuildOption option)
-    {
+            return;
+        }
+
+        BuildOption option = buildOptions[index];
+
         if (option == null || option.prefab == null)
         {
-            Debug.LogWarning("설치 옵션 또는 Prefab 연결이 없습니다.");
+            Debug.LogWarning(
+                $"Build Option {index}에 Prefab이 없습니다."
+            );
+
             return;
         }
 
@@ -172,7 +163,26 @@ public class BuildManager : MonoBehaviour
             buildPanel.SetActive(false);
         }
 
-        Debug.Log($"{option.displayName} 설치 모드가 활성화되었습니다.");
+        Debug.Log(
+            $"{selectedOption.displayName} 설치 모드"
+        );
+    }
+
+    public void SelectRemoveMode()
+    {
+        selectedOption = null;
+        currentMode = BuildMode.Remove;
+
+        if (buildPanel != null)
+        {
+            buildPanel.SetActive(false);
+        }
+    }
+
+    public void CancelCurrentMode()
+    {
+        selectedOption = null;
+        currentMode = BuildMode.None;
     }
 
     private void TryPlaceObject(Vector2 worldPosition)
@@ -188,7 +198,8 @@ public class BuildManager : MonoBehaviour
             return;
         }
 
-        Vector2 snappedPosition = SnapToGrid(worldPosition);
+        Vector2 snappedPosition =
+            SnapToGrid(worldPosition);
 
         BuildZone zone = FindBuildZone(snappedPosition);
 
@@ -201,12 +212,16 @@ public class BuildManager : MonoBehaviour
         if (zone.Type != selectedOption.requiredZone)
         {
             Debug.Log(
-                $"{selectedOption.displayName}은 이 구역에 설치할 수 없습니다."
+                $"{selectedOption.displayName}은 " +
+                $"{selectedOption.requiredZone} 구역에만 설치 가능합니다."
             );
+
             return;
         }
 
-        if (IsPlaceOccupied(snappedPosition, selectedOption.footprint))
+        if (IsPlaceOccupied(
+                snappedPosition,
+                selectedOption.footprint))
         {
             Debug.Log("다른 오브젝트와 겹칩니다.");
             return;
@@ -221,15 +236,12 @@ public class BuildManager : MonoBehaviour
 
         currentMoney -= selectedOption.cost;
         UpdateMoneyUI();
-
-        Debug.Log(
-            $"{selectedOption.displayName} 설치 완료. 남은 돈: {currentMoney}G"
-        );
     }
 
     private void TryRemoveObject(Vector2 worldPosition)
     {
-        Collider2D[] hits = Physics2D.OverlapPointAll(worldPosition);
+        Collider2D[] hits =
+            Physics2D.OverlapPointAll(worldPosition);
 
         foreach (Collider2D hit in hits)
         {
@@ -244,11 +256,6 @@ public class BuildManager : MonoBehaviour
             currentMoney += placeable.RefundAmount;
             UpdateMoneyUI();
 
-            Debug.Log(
-                $"{placeable.name} 제거 완료. " +
-                $"{placeable.RefundAmount}G 환불"
-            );
-
             Destroy(placeable.gameObject);
             return;
         }
@@ -258,13 +265,16 @@ public class BuildManager : MonoBehaviour
 
     private BuildZone FindBuildZone(Vector2 position)
     {
-        Collider2D[] hits = Physics2D.OverlapPointAll(position);
+        Collider2D[] hits =
+            Physics2D.OverlapPointAll(position);
 
         foreach (Collider2D hit in hits)
         {
-            BuildZone zone = hit.GetComponent<BuildZone>();
+            BuildZone zone =
+                hit.GetComponent<BuildZone>();
 
-            if (zone != null && zone.Contains(position))
+            if (zone != null &&
+                zone.Contains(position))
             {
                 return zone;
             }
@@ -275,8 +285,7 @@ public class BuildManager : MonoBehaviour
 
     private bool IsPlaceOccupied(
         Vector2 position,
-        Vector2 footprint
-    )
+        Vector2 footprint)
     {
         Collider2D[] hits = Physics2D.OverlapBoxAll(
             position,
@@ -286,7 +295,10 @@ public class BuildManager : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.GetComponentInParent<PlaceableObject>() != null)
+            PlaceableObject placeable =
+                hit.GetComponentInParent<PlaceableObject>();
+
+            if (placeable != null)
             {
                 return true;
             }
@@ -297,13 +309,15 @@ public class BuildManager : MonoBehaviour
 
     private Vector2 SnapToGrid(Vector2 position)
     {
-        float snappedX =
-            Mathf.Round(position.x / gridSize) * gridSize;
+        float x =
+            Mathf.Round(position.x / gridSize) *
+            gridSize;
 
-        float snappedY =
-            Mathf.Round(position.y / gridSize) * gridSize;
+        float y =
+            Mathf.Round(position.y / gridSize) *
+            gridSize;
 
-        return new Vector2(snappedX, snappedY);
+        return new Vector2(x, y);
     }
 
     private void UpdateMoneyUI()
@@ -312,18 +326,5 @@ public class BuildManager : MonoBehaviour
         {
             moneyText.text = $"{currentMoney}G";
         }
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        if (selectedOption == null)
-        {
-            return;
-        }
-
-        Gizmos.DrawWireCube(
-            transform.position,
-            selectedOption.footprint
-        );
     }
 }

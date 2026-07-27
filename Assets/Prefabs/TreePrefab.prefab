@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5799821467576906599}
   - component: {fileID: 639425542878525788}
   - component: {fileID: -7696112404175062651}
+  - component: {fileID: -5700623229982216687}
   m_Layer: 0
   m_Name: TreePrefab
   m_TagString: Untagged
@@ -157,3 +158,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   objectType: 1
   refundAmount: 50
+--- !u!114 &-5700623229982216687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338379867886183127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93bdaa57bd2e16c4481ef5b1d6482b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForageSource
+  displayName: Cherry blossom tree
+  category: 0
+  honeyName: cherry tree Honey
+  description: 
+  bloomPeriods:
+  - season: 0
+    startDay: 1
+    endDay: 10
+  canBeVisited: 1
+  honeyPerVisit: 1
+  collectDuration: 5
+  maxSimultaneousBees: 1
+  nectarCooldown: 3
+  visitRadius: 0.35
