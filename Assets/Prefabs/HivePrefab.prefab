@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -1750197022012628846}
   - component: {fileID: 673397353616587645}
   - component: {fileID: 1665849106618953143}
+  - component: {fileID: -5380798038636276072}
   m_Layer: 0
   m_Name: HivePrefab
   m_TagString: Untagged
@@ -168,8 +169,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HiveController
   hiveName: Basic Hive
-  maxHoney: 800
+  maxHoney: 10
   currentHoney: 0
+  harvestThreshold: 0.8
   smartChoiceChance: 0.8
   distanceImportance: 1
   honeyImportance: 2
@@ -191,3 +193,15 @@ MonoBehaviour:
   initialBeeCount: 3
   maxBeeCount: 10
   spawnRadius: 0.3
+--- !u!114 &-5380798038636276072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951141528259165178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68b46fac114854409a412c53e3f6cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HiveClickable

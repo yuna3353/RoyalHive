@@ -14,50 +14,50 @@ public class BeeAI : MonoBehaviour
         Resting
     }
 
-    [Header("개체별 이동속도")]
-    [Tooltip("벌 개체가 가질 수 있는 최소 이동속도")]
+    [Header("Individual Movement Speed")]
+    [Tooltip("Minimum movement speed for this bee.")]
     [Min(0.1f)]
-    [SerializeField] private float minMoveSpeed = 4f;
+    [SerializeField]
+    private float minMoveSpeed = 4f;
 
-    [Tooltip("벌 개체가 가질 수 있는 최대 이동속도")]
+    [Tooltip("Maximum movement speed for this bee.")]
     [Min(0.1f)]
-    [SerializeField] private float maxMoveSpeed = 6f;
+    [SerializeField]
+    private float maxMoveSpeed = 6f;
 
-    [Tooltip("목표와 이 거리 이하로 가까워지면 도착으로 판정")]
+    [Tooltip("Distance from the target considered as arrival.")]
     [Min(0.01f)]
     [SerializeField]
-    private float arrivalDistance =
-        0.1f;
+    private float arrivalDistance = 0.1f;
 
-    [Header("개체별 시간 차이")]
-    [Tooltip("생성 후 첫 출발까지 기다리는 시간 범위")]
+    [Header("Individual Timing")]
+    [Tooltip("Random delay before the bee starts moving after spawning.")]
     [SerializeField]
     private Vector2 startDelayRange =
         new Vector2(0f, 1.5f);
 
-    [Tooltip("식물의 기본 채집시간에 곱할 랜덤 배율")]
+    [Tooltip("Random multiplier applied to the forage source collection time.")]
     [SerializeField]
     private Vector2 collectTimeMultiplierRange =
         new Vector2(0.8f, 1.2f);
 
-    [Tooltip("벌통에 꿀을 저장하는 시간 범위")]
+    [Tooltip("Time range used when unloading honey at the hive.")]
     [SerializeField]
     private Vector2 unloadDurationRange =
         new Vector2(1.5f, 2.5f);
 
-    [Tooltip("꿀 저장 후 다음 출발 전 쉬는 시간 범위")]
+    [Tooltip("Rest time after unloading honey.")]
     [SerializeField]
     private Vector2 restDurationRange =
         new Vector2(0.2f, 1f);
 
-    [Header("비행 움직임")]
-    [Tooltip("직선 경로에서 옆으로 흔들리는 폭")]
+    [Header("Flight Movement")]
+    [Tooltip("Side-to-side movement amount while flying.")]
     [Min(0f)]
     [SerializeField]
-    private float flightWaveAmount =
-        0.05f;
+    private float flightWaveAmount = 0.05f;
 
-    [Tooltip("벌마다 적용할 흔들림 속도 범위")]
+    [Tooltip("Random flight wave speed range.")]
     [SerializeField]
     private Vector2 flightWaveSpeedRange =
         new Vector2(4f, 8f);
@@ -74,44 +74,61 @@ public class BeeAI : MonoBehaviour
     private float stateTimer;
 
     private int carriedHoney;
+    private string carriedHoneyType;
+
     private Vector3 targetVisitPosition;
+
     private bool hasReservation;
 
-    public void Initialize(HiveController hive)
+    public void Initialize(
+        HiveController hive)
     {
         homeHive = hive;
 
-        individualMoveSpeed = Random.Range(
-            Mathf.Min(minMoveSpeed, maxMoveSpeed),
-            Mathf.Max(minMoveSpeed, maxMoveSpeed)
-        );
+        individualMoveSpeed =
+            Random.Range(
+                Mathf.Min(
+                    minMoveSpeed,
+                    maxMoveSpeed
+                ),
+                Mathf.Max(
+                    minMoveSpeed,
+                    maxMoveSpeed
+                )
+            );
 
-        flightWaveSpeed = Random.Range(
-            Mathf.Min(
-                flightWaveSpeedRange.x,
-                flightWaveSpeedRange.y
-            ),
-            Mathf.Max(
-                flightWaveSpeedRange.x,
-                flightWaveSpeedRange.y
-            )
-        );
+        flightWaveSpeed =
+            Random.Range(
+                Mathf.Min(
+                    flightWaveSpeedRange.x,
+                    flightWaveSpeedRange.y
+                ),
+                Mathf.Max(
+                    flightWaveSpeedRange.x,
+                    flightWaveSpeedRange.y
+                )
+            );
 
         flightWaveOffset =
-            Random.Range(0f, Mathf.PI * 2f);
+            Random.Range(
+                0f,
+                Mathf.PI * 2f
+            );
 
-        stateTimer = Random.Range(
-            Mathf.Min(
-                startDelayRange.x,
-                startDelayRange.y
-            ),
-            Mathf.Max(
-                startDelayRange.x,
-                startDelayRange.y
-            )
-        );
+        stateTimer =
+            Random.Range(
+                Mathf.Min(
+                    startDelayRange.x,
+                    startDelayRange.y
+                ),
+                Mathf.Max(
+                    startDelayRange.x,
+                    startDelayRange.y
+                )
+            );
 
-        currentState = BeeState.StartingDelay;
+        currentState =
+            BeeState.StartingDelay;
     }
 
     private void Update()
@@ -155,11 +172,13 @@ public class BeeAI : MonoBehaviour
 
     private void UpdateStartingDelay()
     {
-        stateTimer -= Time.deltaTime;
+        stateTimer -=
+            Time.deltaTime;
 
         if (stateTimer <= 0f)
         {
-            currentState = BeeState.Searching;
+            currentState =
+                BeeState.Searching;
         }
     }
 
@@ -167,12 +186,20 @@ public class BeeAI : MonoBehaviour
     {
         CancelCurrentReservation();
 
-        targetSource = SelectSource();
+        targetSource =
+            SelectSource();
 
         if (targetSource == null)
         {
-            stateTimer = Random.Range(0.2f, 0.6f);
-            currentState = BeeState.StartingDelay;
+            stateTimer =
+                Random.Range(
+                    0.2f,
+                    0.6f
+                );
+
+            currentState =
+                BeeState.StartingDelay;
+
             return;
         }
 
@@ -180,22 +207,32 @@ public class BeeAI : MonoBehaviour
         {
             targetSource = null;
 
-            stateTimer = Random.Range(0.1f, 0.4f);
-            currentState = BeeState.StartingDelay;
+            stateTimer =
+                Random.Range(
+                    0.1f,
+                    0.4f
+                );
+
+            currentState =
+                BeeState.StartingDelay;
+
             return;
         }
 
-        hasReservation = true;
+        hasReservation =
+            true;
 
         targetVisitPosition =
             targetSource.GetRandomVisitPosition();
 
-        currentState = BeeState.MovingToSource;
+        currentState =
+            BeeState.MovingToSource;
     }
 
     private ForageSource SelectSource()
     {
-        List<ForageSource> availableSources = new();
+        List<ForageSource> availableSources =
+            new();
 
         foreach (
             ForageSource source
@@ -204,7 +241,9 @@ public class BeeAI : MonoBehaviour
             if (source != null &&
                 source.IsAvailable)
             {
-                availableSources.Add(source);
+                availableSources.Add(
+                    source
+                );
             }
         }
 
@@ -219,26 +258,32 @@ public class BeeAI : MonoBehaviour
 
         if (!makeSmartChoice)
         {
-            // 판단에 실패한 경우 이용 가능한 밀원 중 무작위 선택
-            int randomIndex = Random.Range(
-                0,
-                availableSources.Count
-            );
+            int randomIndex =
+                Random.Range(
+                    0,
+                    availableSources.Count
+                );
 
-            return availableSources[randomIndex];
+            return availableSources[
+                randomIndex
+            ];
         }
 
-        ForageSource bestSource = null;
-        float bestScore = float.MinValue;
+        ForageSource bestSource =
+            null;
+
+        float bestScore =
+            float.MinValue;
 
         foreach (
             ForageSource source
             in availableSources)
         {
-            float distance = Vector2.Distance(
-                transform.position,
-                source.transform.position
-            );
+            float distance =
+                Vector2.Distance(
+                    transform.position,
+                    source.transform.position
+                );
 
             float honeyScore =
                 source.HoneyPerVisit *
@@ -248,9 +293,11 @@ public class BeeAI : MonoBehaviour
                 distance *
                 homeHive.DistanceImportance;
 
-            // 점수가 비슷할 때 벌마다 선택이 갈리도록 작은 랜덤값 추가
             float randomVariation =
-                Random.Range(-0.25f, 0.25f);
+                Random.Range(
+                    -0.25f,
+                    0.25f
+                );
 
             float finalScore =
                 honeyScore -
@@ -259,8 +306,11 @@ public class BeeAI : MonoBehaviour
 
             if (finalScore > bestScore)
             {
-                bestScore = finalScore;
-                bestSource = source;
+                bestScore =
+                    finalScore;
+
+                bestSource =
+                    source;
             }
         }
 
@@ -272,30 +322,38 @@ public class BeeAI : MonoBehaviour
         if (targetSource == null)
         {
             CancelCurrentReservation();
-            currentState = BeeState.Searching;
+
+            currentState =
+                BeeState.Searching;
+
             return;
         }
 
-        MoveTowards(targetVisitPosition);
+        MoveTowards(
+            targetVisitPosition
+        );
 
-        if (HasArrived(targetVisitPosition))
+        if (HasArrived(
+                targetVisitPosition))
         {
-            float multiplier = Random.Range(
-                Mathf.Min(
-                    collectTimeMultiplierRange.x,
-                    collectTimeMultiplierRange.y
-                ),
-                Mathf.Max(
-                    collectTimeMultiplierRange.x,
-                    collectTimeMultiplierRange.y
-                )
-            );
+            float multiplier =
+                Random.Range(
+                    Mathf.Min(
+                        collectTimeMultiplierRange.x,
+                        collectTimeMultiplierRange.y
+                    ),
+                    Mathf.Max(
+                        collectTimeMultiplierRange.x,
+                        collectTimeMultiplierRange.y
+                    )
+                );
 
             stateTimer =
                 targetSource.CollectDuration *
                 multiplier;
 
-            currentState = BeeState.Collecting;
+            currentState =
+                BeeState.Collecting;
         }
     }
 
@@ -304,110 +362,150 @@ public class BeeAI : MonoBehaviour
         if (targetSource == null)
         {
             CancelCurrentReservation();
-            currentState = BeeState.Searching;
+
+            currentState =
+                BeeState.Searching;
+
             return;
         }
 
-        stateTimer -= Time.deltaTime;
+        stateTimer -=
+            Time.deltaTime;
 
         if (stateTimer > 0f)
         {
             return;
         }
 
+        carriedHoneyType =
+            targetSource.HoneyName;
+
         carriedHoney =
             targetSource.CompleteHarvest();
 
-        hasReservation = false;
-        targetSource = null;
+        hasReservation =
+            false;
 
-        currentState = BeeState.ReturningToHive;
+        targetSource =
+            null;
+
+        currentState =
+            BeeState.ReturningToHive;
     }
 
     private void ReturnToHive()
     {
-        MoveTowards(homeHive.transform.position);
+        MoveTowards(
+            homeHive.transform.position
+        );
 
-        if (HasArrived(homeHive.transform.position))
+        if (HasArrived(
+                homeHive.transform.position))
         {
-            stateTimer = Random.Range(
-                Mathf.Min(
-                    unloadDurationRange.x,
-                    unloadDurationRange.y
-                ),
-                Mathf.Max(
-                    unloadDurationRange.x,
-                    unloadDurationRange.y
-                )
-            );
+            stateTimer =
+                Random.Range(
+                    Mathf.Min(
+                        unloadDurationRange.x,
+                        unloadDurationRange.y
+                    ),
+                    Mathf.Max(
+                        unloadDurationRange.x,
+                        unloadDurationRange.y
+                    )
+                );
 
-            currentState = BeeState.Unloading;
+            currentState =
+                BeeState.Unloading;
         }
     }
 
     private void UnloadHoney()
     {
-        stateTimer -= Time.deltaTime;
+        stateTimer -=
+            Time.deltaTime;
 
         if (stateTimer > 0f)
         {
             return;
         }
 
-        homeHive.StoreHoney(carriedHoney);
-        carriedHoney = 0;
-
-        stateTimer = Random.Range(
-            Mathf.Min(
-                restDurationRange.x,
-                restDurationRange.y
-            ),
-            Mathf.Max(
-                restDurationRange.x,
-                restDurationRange.y
-            )
+        homeHive.StoreHoney(
+            carriedHoneyType,
+            carriedHoney
         );
 
-        currentState = BeeState.Resting;
+        carriedHoney =
+            0;
+
+        carriedHoneyType =
+            null;
+
+        stateTimer =
+            Random.Range(
+                Mathf.Min(
+                    restDurationRange.x,
+                    restDurationRange.y
+                ),
+                Mathf.Max(
+                    restDurationRange.x,
+                    restDurationRange.y
+                )
+            );
+
+        currentState =
+            BeeState.Resting;
     }
 
     private void RestAtHive()
     {
-        stateTimer -= Time.deltaTime;
+        stateTimer -=
+            Time.deltaTime;
 
         if (stateTimer <= 0f)
         {
-            currentState = BeeState.Searching;
+            currentState =
+                BeeState.Searching;
         }
     }
 
-    private void MoveTowards(Vector3 target)
+    private void MoveTowards(
+        Vector3 target)
     {
         Vector3 direction =
-            target - transform.position;
+            target -
+            transform.position;
 
-        Vector3 perpendicular = new Vector3(
-            -direction.y,
-            direction.x,
-            0f
-        ).normalized;
+        Vector3 perpendicular =
+            new Vector3(
+                -direction.y,
+                direction.x,
+                0f
+            ).normalized;
 
-        float wave = Mathf.Sin(
-            Time.time * flightWaveSpeed +
-            flightWaveOffset
-        ) * flightWaveAmount;
+        float wave =
+            Mathf.Sin(
+                Time.time *
+                flightWaveSpeed +
+                flightWaveOffset
+            ) *
+            flightWaveAmount;
 
         Vector3 animatedTarget =
-            target + perpendicular * wave;
+            target +
+            perpendicular *
+            wave;
 
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            animatedTarget,
-            individualMoveSpeed * Time.deltaTime
-        );
+        transform.position =
+            Vector3.MoveTowards(
+                transform.position,
+                animatedTarget,
+                individualMoveSpeed *
+                Time.deltaTime
+            );
     }
 
-    private bool HasArrived(Vector3 target)
+    private bool HasArrived(
+        Vector3 target)
     {
         return Vector2.Distance(
             transform.position,
@@ -423,8 +521,11 @@ public class BeeAI : MonoBehaviour
             targetSource.CancelReservation();
         }
 
-        targetSource = null;
-        hasReservation = false;
+        targetSource =
+            null;
+
+        hasReservation =
+            false;
     }
 
     private void OnDisable()

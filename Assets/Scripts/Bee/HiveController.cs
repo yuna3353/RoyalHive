@@ -1,42 +1,61 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HiveController : MonoBehaviour
 {
-    [Header("벌통 기본 정보")]
+    [Header("Hive Information")]
     [SerializeField]
-    private string hiveName =
-        "Basic Hive";
+    private string hiveName = "Basic Hive";
 
-    [Header("꿀 저장")]
+    [Header("Honey Storage")]
     [Min(1)]
-    [SerializeField] private int maxHoney = 800;
+    [SerializeField]
+    private int maxHoney = 800;
 
     [Min(0)]
-    [SerializeField] private int currentHoney;
+    [SerializeField]
+    private int currentHoney;
 
-    [Header("벌의 밀원 선택 능력")]
-    [Tooltip("효율적인 밀원을 선택할 확률. 0.8은 80%")]
+    [Header("Harvest")]
     [Range(0f, 1f)]
     [SerializeField]
-    private float smartChoiceChance =
-        0.8f;
+    private float harvestThreshold = 0.8f;
 
-    [Tooltip("가까운 밀원을 얼마나 중요하게 판단할지 설정")]
+    [Header("Forage Selection")]
+    [Range(0f, 1f)]
+    [SerializeField]
+    private float smartChoiceChance = 0.8f;
+
     [Min(0f)]
     [SerializeField]
-    private float distanceImportance =
-        1f;
+    private float distanceImportance = 1f;
 
-    [Tooltip("한 번에 많은 꿀을 주는 밀원을 얼마나 중요하게 판단할지 설정")]
     [Min(0f)]
     [SerializeField]
-    private float honeyImportance =
-        2f;
+    private float honeyImportance = 2f;
 
-    public string HiveName => hiveName;
-    public int CurrentHoney => currentHoney;
-    public int MaxHoney => maxHoney;
-    public bool IsFull => currentHoney >= maxHoney;
+    private readonly Dictionary<string, int> honeyByType =
+        new();
+
+    public string HiveName =>
+        hiveName;
+
+    public int CurrentHoney =>
+        currentHoney;
+
+    public int MaxHoney =>
+        maxHoney;
+
+    public bool IsFull =>
+        currentHoney >= maxHoney;
+
+    public bool CanHarvest =>
+        currentHoney >= maxHoney * harvestThreshold;
+
+    public float HoneyRatio =>
+        maxHoney <= 0
+            ? 0f
+            : (float)currentHoney / maxHoney;
 
     public float SmartChoiceChance =>
         smartChoiceChance;
@@ -47,49 +66,119 @@ public class HiveController : MonoBehaviour
     public float HoneyImportance =>
         honeyImportance;
 
-    public int StoreHoney(int amount)
+    public IReadOnlyDictionary<string, int> HoneyByType =>
+        honeyByType;
+
+    public int StoreHoney(
+        string honeyType,
+        int amount)
     {
         if (amount <= 0 || IsFull)
         {
             return 0;
         }
 
+        if (string.IsNullOrWhiteSpace(honeyType))
+        {
+            honeyType = "Unknown Honey";
+        }
+
         int availableSpace =
             maxHoney - currentHoney;
 
         int storedAmount =
-            Mathf.Min(amount, availableSpace);
+            Mathf.Min(
+                amount,
+                availableSpace
+            );
 
         currentHoney += storedAmount;
 
+        if (!honeyByType.ContainsKey(honeyType))
+        {
+            honeyByType.Add(
+                honeyType,
+                0
+            );
+        }
+
+        honeyByType[honeyType] +=
+            storedAmount;
+
         Debug.Log(
-            $"{hiveName}: 꿀 {storedAmount}H 저장 " +
-            $"({currentHoney}/{maxHoney}H)",
+            $"{hiveName}: Stored {storedAmount}H of {honeyType}. " +
+            $"Total: {currentHoney}/{maxHoney}H",
             gameObject
         );
 
         return storedAmount;
     }
 
-    public int RemoveHoney(int amount)
+    public int GetHoneyAmount(
+        string honeyType)
     {
-        if (amount <= 0)
+        if (string.IsNullOrWhiteSpace(honeyType))
+        {
+            return 0;
+        }
+
+        if (!honeyByType.TryGetValue(
+                honeyType,
+                out int amount))
+        {
+            return 0;
+        }
+
+        return amount;
+    }
+
+    public int RemoveHoney(
+        string honeyType,
+        int amount)
+    {
+        if (amount <= 0 ||
+            string.IsNullOrWhiteSpace(honeyType))
+        {
+            return 0;
+        }
+
+        if (!honeyByType.TryGetValue(
+                honeyType,
+                out int storedAmount))
         {
             return 0;
         }
 
         int removedAmount =
-            Mathf.Min(amount, currentHoney);
+            Mathf.Min(
+                amount,
+                storedAmount
+            );
 
-        currentHoney -= removedAmount;
+        honeyByType[honeyType] -=
+            removedAmount;
+
+        currentHoney -=
+            removedAmount;
+
+        if (honeyByType[honeyType] <= 0)
+        {
+            honeyByType.Remove(
+                honeyType
+            );
+        }
 
         return removedAmount;
     }
 
     public int RemoveAllHoney()
     {
-        int removedAmount = currentHoney;
+        int removedAmount =
+            currentHoney;
+
         currentHoney = 0;
+
+        honeyByType.Clear();
 
         return removedAmount;
     }
