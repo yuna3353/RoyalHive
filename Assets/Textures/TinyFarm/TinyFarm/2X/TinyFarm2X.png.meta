@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 4e353057f63c99247a9f555f4ca85a32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9146197440555643662
+    second: TinyFarm2X_0
+  - first:
+      213: -1083424950282330206
+    second: TinyFarm2X_1
+  - first:
+      213: -523008161905323157
+    second: TinyFarm2X_2
+  - first:
+      213: -1704641967875131227
+    second: TinyFarm2X_3
+  - first:
+      213: -3207138835959838686
+    second: TinyFarm2X_4
+  - first:
+      213: 8143765810279364227
+    second: TinyFarm2X_5
+  - first:
+      213: -388200560549317108
+    second: TinyFarm2X_6
+  - first:
+      213: 5820766125144924659
+    second: TinyFarm2X_7
+  - first:
+      213: 6741440055148617484
+    second: TinyFarm2X_8
+  - first:
+      213: 3823510924943967513
+    second: TinyFarm2X_9
+  - first:
+      213: -816811177403358837
+    second: TinyFarm2X_10
+  - first:
+      213: 2354489700945345445
+    second: TinyFarm2X_11
+  - first:
+      213: -6473262918125864358
+    second: TinyFarm2X_12
+  - first:
+      213: 1845432563738186012
+    second: TinyFarm2X_13
+  - first:
+      213: 2339214031486064573
+    second: TinyFarm2X_14
+  - first:
+      213: -3988272398817818989
+    second: TinyFarm2X_15
+  - first:
+      213: 6725218874051821239
+    second: TinyFarm2X_16
+  - first:
+      213: -621204878005666782
+    second: TinyFarm2X_17
+  - first:
+      213: 4412878314224724199
+    second: TinyFarm2X_18
+  - first:
+      213: 7827836246951876985
+    second: TinyFarm2X_19
+  - first:
+      213: 9197821054767950935
+    second: TinyFarm2X_20
+  - first:
+      213: -4497751560956758568
+    second: TinyFarm2X_21
+  - first:
+      213: 8925365497630059331
+    second: TinyFarm2X_22
+  - first:
+      213: -2564093539264618636
+    second: TinyFarm2X_23
+  - first:
+      213: 3754644837472065844
+    second: TinyFarm2X_24
+  - first:
+      213: -4991600813649228032
+    second: TinyFarm2X_25
+  - first:
+      213: -7497870689573367953
+    second: TinyFarm2X_26
+  - first:
+      213: -4367161992505951686
+    second: TinyFarm2X_27
+  - first:
+      213: -286638459979080512
+    second: TinyFarm2X_28
+  - first:
+      213: -164824757194251610
+    second: TinyFarm2X_29
+  - first:
+      213: 4190368802680167397
+    second: TinyFarm2X_30
+  - first:
+      213: -2542065222144871743
+    second: TinyFarm2X_31
+  - first:
+      213: -4461324002658459577
+    second: TinyFarm2X_32
+  - first:
+      213: 8831801627943679314
+    second: TinyFarm2X_33
+  - first:
+      213: -7127031506902991114
+    second: TinyFarm2X_34
+  - first:
+      213: 6662218169645507253
+    second: TinyFarm2X_35
+  - first:
+      213: 2020992915173722130
+    second: TinyFarm2X_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TinyFarm2X_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc081ee2ed221180800000000000000
+      internalID: -9146197440555643662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 223
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af50a97fb6e6f0f0800000000000000
+      internalID: -1083424950282330206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 223
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63d00709d6edb8f0800000000000000
+      internalID: -523008161905323157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 223
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8749b6925e758e0800000000000000
+      internalID: -1704641967875131227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 223
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22801498834fd73d0800000000000000
+      internalID: -3207138835959838686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 223
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3863caf5bd7740170800000000000000
+      internalID: 8143765810279364227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 255
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06b9de95a5dc9af0800000000000000
+      internalID: -388200560549317108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 255
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1e3e973f387c050800000000000000
+      internalID: 5820766125144924659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_8
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f19b133086e8d50800000000000000
+      internalID: 6741440055148617484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 223
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9154c1cade6df0530800000000000000
+      internalID: 3823510924943967513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 223
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81ed42df8a1aa4f0800000000000000
+      internalID: -816811177403358837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 78
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abb92c88e3dca020800000000000000
+      internalID: 2354489700945345445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 63
+        width: 58
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a366b3ca95a26a0800000000000000
+      internalID: -6473262918125864358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 63
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c119d82a32b4c9910800000000000000
+      internalID: 1845432563738186012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_14
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7165894ce867020800000000000000
+      internalID: 2339214031486064573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_15
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39608f0526fc6a8c0800000000000000
+      internalID: -3988272398817818989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 79
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be7c982fe6c45d50800000000000000
+      internalID: 6725218874051821239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 79
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c7bb964790167f0800000000000000
+      internalID: -621204878005666782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_18
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8a3644271bd3d30800000000000000
+      internalID: 4412878314224724199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_19
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 79
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9795e7bc79f02ac60800000000000000
+      internalID: 7827836246951876985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_20
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 79
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c6d05648935af70800000000000000
+      internalID: 9197821054767950935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5b63119c6c491c0800000000000000
+      internalID: -4497751560956758568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b64c8a1a44ddb70800000000000000
+      internalID: 8925365497630059331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 63
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f124dd2828a6cd0800000000000000
+      internalID: -2564093539264618636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439d643369d2b1430800000000000000
+      internalID: 3754644837472065844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_25
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f03e1b1854abab0800000000000000
+      internalID: -4991600813649228032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_26
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f8a20555632f790800000000000000
+      internalID: -7497870689573367953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a78185e49b463c0800000000000000
+      internalID: -4367161992505951686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_28
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc5bfdd6d7a50cf0800000000000000
+      internalID: -286638459979080512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_29
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a22f31b1cc66bdf0800000000000000
+      internalID: -164824757194251610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_30
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb51a9793e272a30800000000000000
+      internalID: 4190368802680167397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 15
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c23e2e1625c8bcd0800000000000000
+      internalID: -2542065222144871743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7406e99e4713612c0800000000000000
+      internalID: -4461324002658459577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_33
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 15
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255bc48a9ccd09a70800000000000000
+      internalID: 8831801627943679314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6feb708ea92b71d90800000000000000
+      internalID: -7127031506902991114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2afd99024f47c50800000000000000
+      internalID: 6662218169645507253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyFarm2X_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218c28249520c0c10800000000000000
+      internalID: 2020992915173722130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TinyFarm2X_0: -9146197440555643662
+      TinyFarm2X_1: -1083424950282330206
+      TinyFarm2X_10: -816811177403358837
+      TinyFarm2X_11: 2354489700945345445
+      TinyFarm2X_12: -6473262918125864358
+      TinyFarm2X_13: 1845432563738186012
+      TinyFarm2X_14: 2339214031486064573
+      TinyFarm2X_15: -3988272398817818989
+      TinyFarm2X_16: 6725218874051821239
+      TinyFarm2X_17: -621204878005666782
+      TinyFarm2X_18: 4412878314224724199
+      TinyFarm2X_19: 7827836246951876985
+      TinyFarm2X_2: -523008161905323157
+      TinyFarm2X_20: 9197821054767950935
+      TinyFarm2X_21: -4497751560956758568
+      TinyFarm2X_22: 8925365497630059331
+      TinyFarm2X_23: -2564093539264618636
+      TinyFarm2X_24: 3754644837472065844
+      TinyFarm2X_25: -4991600813649228032
+      TinyFarm2X_26: -7497870689573367953
+      TinyFarm2X_27: -4367161992505951686
+      TinyFarm2X_28: -286638459979080512
+      TinyFarm2X_29: -164824757194251610
+      TinyFarm2X_3: -1704641967875131227
+      TinyFarm2X_30: 4190368802680167397
+      TinyFarm2X_31: -2542065222144871743
+      TinyFarm2X_32: -4461324002658459577
+      TinyFarm2X_33: 8831801627943679314
+      TinyFarm2X_34: -7127031506902991114
+      TinyFarm2X_35: 6662218169645507253
+      TinyFarm2X_36: 2020992915173722130
+      TinyFarm2X_4: -3207138835959838686
+      TinyFarm2X_5: 8143765810279364227
+      TinyFarm2X_6: -388200560549317108
+      TinyFarm2X_7: 5820766125144924659
+      TinyFarm2X_8: 6741440055148617484
+      TinyFarm2X_9: 3823510924943967513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

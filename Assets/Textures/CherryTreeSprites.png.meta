@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: b7f61121da9626342b5a48a08b124763
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -259121145216277117
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_0
+  - first:
+      213: -6404396974080986135
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_1
+  - first:
+      213: -2424790207720021320
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_2
+  - first:
+      213: 225743099241791557
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_3
+  - first:
+      213: -3505856650782387659
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_4
+  - first:
+      213: -273876319548174476
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_5
+  - first:
+      213: -2054531572696758379
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_6
+  - first:
+      213: 1524468666235331034
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_7
+  - first:
+      213: 8600554950692833456
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_8
+  - first:
+      213: 2509456722544869402
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_9
+  - first:
+      213: -764071276038587557
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_10
+  - first:
+      213: 3957802222280481768
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_11
+  - first:
+      213: -5699090250499008092
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_12
+  - first:
+      213: 2877025000026492559
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_13
+  - first:
+      213: -7256108181900803692
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_14
+  - first:
+      213: -7629749873256777561
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_15
+  - first:
+      213: 7837605238727977002
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_16
+  - first:
+      213: -8341991104958806310
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_17
+  - first:
+      213: -8263418359362091178
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_18
+  - first:
+      213: -2800678150873878717
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_19
+  - first:
+      213: -9081971651304991450
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_20
+  - first:
+      213: -7963276646328093465
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_21
+  - first:
+      213: -53832729753824570
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_22
+  - first:
+      213: -1528696488657637464
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_23
+  - first:
+      213: -7181288911904081134
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_24
+  - first:
+      213: -9200918194347899750
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_25
+  - first:
+      213: 2031332678392785168
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_26
+  - first:
+      213: 6230108011645181796
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_27
+  - first:
+      213: -3855465367788273694
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_28
+  - first:
+      213: 319060343939302322
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_29
+  - first:
+      213: -3247381251370751384
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_30
+  - first:
+      213: 1443318942926942101
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_31
+  - first:
+      213: 6662316755171003323
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_32
+  - first:
+      213: 7914206856782385045
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_33
+  - first:
+      213: 6248826131254656000
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_34
+  - first:
+      213: 2851324210012165036
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_35
+  - first:
+      213: -8870239720703816378
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_36
+  - first:
+      213: 2148073541334165916
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_37
+  - first:
+      213: -6528204729028667051
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_38
+  - first:
+      213: -7563313195850453832
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_39
+  - first:
+      213: -3880658061792978580
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_40
+  - first:
+      213: 1186248577615565693
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_41
+  - first:
+      213: 1750012094062451209
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_42
+  - first:
+      213: -4125750591063143467
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_43
+  - first:
+      213: 2786036210557048684
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_44
+  - first:
+      213: 2651518590912629114
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_45
+  - first:
+      213: -5482107636805463862
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_46
+  - first:
+      213: -1080628719252177039
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_47
+  - first:
+      213: 6318802565228225786
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_48
+  - first:
+      213: 4915232531423404688
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_49
+  - first:
+      213: 1320112084985598547
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_50
+  - first:
+      213: 2332313696094732866
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_51
+  - first:
+      213: -3573218677436650621
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_52
+  - first:
+      213: 8713062309084069901
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_53
+  - first:
+      213: 4629618154128501420
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_54
+  - first:
+      213: -7694082621184310411
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_55
+  - first:
+      213: 8078966551350227681
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_56
+  - first:
+      213: -3949168862817305661
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_57
+  - first:
+      213: -3663193247642318488
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_58
+  - first:
+      213: -7348786857058806518
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_59
+  - first:
+      213: -6996265664847363226
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_60
+  - first:
+      213: -7396917480588003142
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_61
+  - first:
+      213: 3351545161122195011
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_62
+  - first:
+      213: -5373111320674474393
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_63
+  - first:
+      213: 2346339817879607498
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_64
+  - first:
+      213: -2615198380707646738
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_65
+  - first:
+      213: 459682446475520105
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_66
+  - first:
+      213: 8951077282312754678
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_67
+  - first:
+      213: 8702036958795383281
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_68
+  - first:
+      213: -7055703259003221662
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_69
+  - first:
+      213: -8998326158161826969
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_70
+  - first:
+      213: -1982274837733943024
+    second: de632636-76ea-4b45-a7cd-dc1ae15101e3_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: de632636-76ea-4b45-a7cd-dc1ae15101e3_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 128
+        width: 486
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3856799f0ba676cf0800000000000000
+      internalID: -259121145216277117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: de632636-76ea-4b45-a7cd-dc1ae15101e3_1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 127
+        width: 486
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3f05f42e20f17a0800000000000000
+      internalID: -6404396974080986135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: de632636-76ea-4b45-a7cd-dc1ae15101e3_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 128
+        width: 486
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a006372a695ed0800000000000000
+      internalID: -2424790207720021320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: de632636-76ea-4b45-a7cd-dc1ae15101e3_3
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 129
+        width: 486
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5408dc81720022300800000000000000
+      internalID: 225743099241791557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e5251ec81bdfbe4a8f9310c2ef351ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_0: -259121145216277117
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_1: -6404396974080986135
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_10: -764071276038587557
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_11: 3957802222280481768
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_12: -5699090250499008092
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_13: 2877025000026492559
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_14: -7256108181900803692
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_15: -7629749873256777561
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_16: 7837605238727977002
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_17: -8341991104958806310
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_18: -8263418359362091178
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_19: -2800678150873878717
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_2: -2424790207720021320
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_20: -9081971651304991450
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_21: -7963276646328093465
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_22: -53832729753824570
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_23: -1528696488657637464
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_24: -7181288911904081134
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_25: -9200918194347899750
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_26: 2031332678392785168
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_27: 6230108011645181796
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_28: -3855465367788273694
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_29: 319060343939302322
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_3: 225743099241791557
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_30: -3247381251370751384
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_31: 1443318942926942101
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_32: 6662316755171003323
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_33: 7914206856782385045
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_34: 6248826131254656000
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_35: 2851324210012165036
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_36: -8870239720703816378
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_37: 2148073541334165916
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_38: -6528204729028667051
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_39: -7563313195850453832
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_4: -3505856650782387659
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_40: -3880658061792978580
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_41: 1186248577615565693
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_42: 1750012094062451209
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_43: -4125750591063143467
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_44: 2786036210557048684
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_45: 2651518590912629114
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_46: -5482107636805463862
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_47: -1080628719252177039
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_48: 6318802565228225786
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_49: 4915232531423404688
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_5: -273876319548174476
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_50: 1320112084985598547
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_51: 2332313696094732866
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_52: -3573218677436650621
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_53: 8713062309084069901
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_54: 4629618154128501420
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_55: -7694082621184310411
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_56: 8078966551350227681
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_57: -3949168862817305661
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_58: -3663193247642318488
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_59: -7348786857058806518
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_6: -2054531572696758379
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_60: -6996265664847363226
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_61: -7396917480588003142
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_62: 3351545161122195011
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_63: -5373111320674474393
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_64: 2346339817879607498
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_65: -2615198380707646738
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_66: 459682446475520105
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_67: 8951077282312754678
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_68: 8702036958795383281
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_69: -7055703259003221662
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_7: 1524468666235331034
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_70: -8998326158161826969
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_71: -1982274837733943024
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_72: -1520329185
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_73: -1197309540
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_8: 8600554950692833456
+      de632636-76ea-4b45-a7cd-dc1ae15101e3_9: 2509456722544869402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
