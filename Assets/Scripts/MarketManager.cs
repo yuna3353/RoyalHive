@@ -5,15 +5,14 @@ using UnityEngine;
 public class MarketManager : MonoBehaviour
 {
     [Serializable]
-    public class BillOption
+    public class MarketItem
     {
+        [Header("Honey Type")]
         public string honeyType;
 
+        [Header("Price Per 1 Honey")]
         [Min(1)]
-        public int requiredAmount = 10;
-
-        [Min(1)]
-        public int rewardGold = 100;
+        public int pricePerHoney = 10;
     }
 
     [Header("References")]
@@ -26,24 +25,40 @@ public class MarketManager : MonoBehaviour
     [SerializeField]
     private GameObject marketPanel;
 
-    [Header("Bills")]
+    [Header("Market Items")]
     [SerializeField]
-    private BillOption[] billOptions;
+    private MarketItem[] marketItems;
 
-    [Header("UI")]
+    [Header("Selected Item UI")]
     [SerializeField]
-    private TMP_Text billText;
+    private TMP_Text honeyTypeText;
 
     [SerializeField]
     private TMP_Text warehouseAmountText;
 
     [SerializeField]
-    private TMP_Text rewardText;
+    private TMP_Text priceText;
 
     [SerializeField]
     private TMP_Text statusText;
 
-    private BillOption currentBill;
+    private int selectedItemIndex = 0;
+
+    private MarketItem CurrentItem
+    {
+        get
+        {
+            if (marketItems == null ||
+                marketItems.Length == 0 ||
+                selectedItemIndex < 0 ||
+                selectedItemIndex >= marketItems.Length)
+            {
+                return null;
+            }
+
+            return marketItems[selectedItemIndex];
+        }
+    }
 
     private void Awake()
     {
@@ -51,8 +66,6 @@ public class MarketManager : MonoBehaviour
         {
             marketPanel.SetActive(false);
         }
-
-        GenerateNewBill();
     }
 
     private void Update()
@@ -82,124 +95,202 @@ public class MarketManager : MonoBehaviour
         }
     }
 
-    public void GenerateNewBill()
+    public void SelectMarketItem(int index)
     {
-        if (billOptions == null ||
-            billOptions.Length == 0)
+        if (marketItems == null ||
+            index < 0 ||
+            index >= marketItems.Length)
         {
-            currentBill = null;
+            Debug.LogWarning(
+                $"Invalid Market Item Index: {index}"
+            );
 
             return;
         }
 
-        int index =
-            UnityEngine.Random.Range(
-                0,
-                billOptions.Length
-            );
-
-        currentBill =
-            billOptions[index];
+        selectedItemIndex = index;
 
         if (statusText != null)
         {
-            statusText.text =
-                "New request received.";
+            statusText.text = "";
         }
 
         RefreshUI();
     }
 
-    public void SubmitBill()
+    public void Sell10()
     {
-        if (currentBill == null ||
-            warehouse == null ||
-            buildManager == null)
+        SellHoney(10);
+    }
+
+    public void SellAll()
+    {
+        MarketItem item = CurrentItem;
+
+        if (item == null ||
+            warehouse == null)
         {
             return;
         }
 
-        int availableHoney =
+        int available =
             warehouse.GetHoneyAmount(
-                currentBill.honeyType
+                item.honeyType
             );
 
-        if (availableHoney <
-            currentBill.requiredAmount)
+        if (available <= 0)
         {
-            if (statusText != null)
-            {
-                statusText.text =
-                    "Not enough honey.";
-            }
+            SetStatus("No honey to sell.");
+            return;
+        }
+
+        SellHoney(available);
+    }
+
+    private void SellHoney(int requestedAmount)
+    {
+        MarketItem item = CurrentItem;
+
+        if (item == null)
+        {
+            SetStatus(
+                "No market item selected."
+            );
 
             return;
         }
+
+        if (warehouse == null)
+        {
+            Debug.LogWarning(
+                "WarehouseController is not assigned."
+            );
+
+            return;
+        }
+
+        if (buildManager == null)
+        {
+            Debug.LogWarning(
+                "BuildManager is not assigned."
+            );
+
+            return;
+        }
+
+        int available =
+            warehouse.GetHoneyAmount(
+                item.honeyType
+            );
+
+        if (available <= 0)
+        {
+            SetStatus(
+                $"No {item.honeyType} in warehouse."
+            );
+
+            return;
+        }
+
+        int amountToSell =
+            Mathf.Min(
+                requestedAmount,
+                available
+            );
 
         int removed =
             warehouse.RemoveHoney(
-                currentBill.honeyType,
-                currentBill.requiredAmount
+                item.honeyType,
+                amountToSell
             );
 
-        if (removed <
-            currentBill.requiredAmount)
+        if (removed <= 0)
         {
+            SetStatus(
+                "Sale failed."
+            );
+
             return;
         }
 
+        int earnedGold =
+            removed *
+            item.pricePerHoney;
+
         buildManager.AddMoney(
-            currentBill.rewardGold
+            earnedGold
         );
 
-        if (statusText != null)
-        {
-            statusText.text =
-                $"Sold {removed}H for " +
-                $"{currentBill.rewardGold}G!";
-        }
+        SetStatus(
+            $"Sold {removed}H for {earnedGold}G!"
+        );
 
-        GenerateNewBill();
+        RefreshUI();
     }
 
     private void RefreshUI()
     {
-        if (currentBill == null)
+        MarketItem item = CurrentItem;
+
+        if (item == null)
         {
-            if (billText != null)
+            if (honeyTypeText != null)
             {
-                billText.text =
-                    "No active request.";
+                honeyTypeText.text =
+                    "No Market Item";
+            }
+
+            if (warehouseAmountText != null)
+            {
+                warehouseAmountText.text =
+                    "Warehouse: -";
+            }
+
+            if (priceText != null)
+            {
+                priceText.text =
+                    "Price: -";
             }
 
             return;
         }
 
-        if (billText != null)
+        if (honeyTypeText != null)
         {
-            billText.text =
-                $"{currentBill.honeyType}\n" +
-                $"Required: " +
-                $"{currentBill.requiredAmount} H";
+            honeyTypeText.text =
+                item.honeyType;
         }
 
-        if (warehouseAmountText != null &&
-            warehouse != null)
+        if (warehouseAmountText != null)
         {
-            int amount =
-                warehouse.GetHoneyAmount(
-                    currentBill.honeyType
-                );
+            int amount = 0;
+
+            if (warehouse != null)
+            {
+                amount =
+                    warehouse.GetHoneyAmount(
+                        item.honeyType
+                    );
+            }
 
             warehouseAmountText.text =
                 $"Warehouse: {amount} H";
         }
 
-        if (rewardText != null)
+        if (priceText != null)
         {
-            rewardText.text =
-                $"Reward: " +
-                $"{currentBill.rewardGold} G";
+            priceText.text =
+                $"Price: {item.pricePerHoney}G / H";
         }
+    }
+
+    private void SetStatus(string message)
+    {
+        if (statusText != null)
+        {
+            statusText.text = message;
+        }
+
+        Debug.Log(message);
     }
 }

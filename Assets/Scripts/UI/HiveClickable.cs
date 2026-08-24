@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(HiveController))]
+[RequireComponent(typeof(Collider2D))]
 public class HiveClickable : MonoBehaviour
 {
     private HiveController hive;
@@ -14,17 +15,22 @@ public class HiveClickable : MonoBehaviour
     private void OnMouseDown()
     {
         HiveInfoUI hiveInfoUI =
-            FindFirstObjectByType<HiveInfoUI>();
+            FindAnyObjectByType<HiveInfoUI>(
+                FindObjectsInactive.Include
+            );
 
         if (hiveInfoUI == null)
         {
             Debug.LogWarning(
-                "HiveInfoUI was not found."
+                "HiveInfoUI was not found.",
+                gameObject
             );
 
             return;
         }
 
-        hiveInfoUI.OpenHive(hive);
+        hiveInfoUI.OpenHive(
+            hive
+        );
     }
 }
