@@ -1,0 +1,2262 @@
+fileFormatVersion: 2
+guid: d16df96144d8d2040b6536189c0bd3b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2618721921492982344
+    second: barn1_0
+  - first:
+      213: 2888564870896653672
+    second: barn1_1
+  - first:
+      213: 5137792077764885661
+    second: barn1_2
+  - first:
+      213: -910865264569080396
+    second: barn1_3
+  - first:
+      213: -3496747992667613774
+    second: barn1_4
+  - first:
+      213: -3905544164999397956
+    second: barn1_5
+  - first:
+      213: -2682649887151142356
+    second: barn1_6
+  - first:
+      213: 5211674772700840627
+    second: barn1_7
+  - first:
+      213: -4286032514696589052
+    second: barn1_8
+  - first:
+      213: 7966551128960463802
+    second: barn1_9
+  - first:
+      213: 7826058881736612755
+    second: barn1_10
+  - first:
+      213: -1211325776634836312
+    second: barn1_11
+  - first:
+      213: -3659225732869627491
+    second: barn1_12
+  - first:
+      213: -4304611643717075464
+    second: barn1_13
+  - first:
+      213: 5577766918664862727
+    second: barn1_14
+  - first:
+      213: 1032609146516709089
+    second: barn1_15
+  - first:
+      213: 4175754689350255940
+    second: barn1_16
+  - first:
+      213: -1574804599308096065
+    second: barn1_17
+  - first:
+      213: 1301609375968758961
+    second: barn1_18
+  - first:
+      213: -8521328230043489558
+    second: barn1_19
+  - first:
+      213: 8738351411970679804
+    second: barn1_20
+  - first:
+      213: -690965740846206714
+    second: barn1_21
+  - first:
+      213: -8681691136809559406
+    second: barn1_22
+  - first:
+      213: -3649048319261218318
+    second: barn1_23
+  - first:
+      213: -8821841205899867141
+    second: barn1_24
+  - first:
+      213: 8018350811002575660
+    second: barn1_25
+  - first:
+      213: 5380860924758701986
+    second: barn1_26
+  - first:
+      213: -2052927292269939236
+    second: barn1_27
+  - first:
+      213: 8263829604920351278
+    second: barn1_28
+  - first:
+      213: -1021047564793409678
+    second: barn1_29
+  - first:
+      213: 1798268038642236166
+    second: barn1_30
+  - first:
+      213: -5004559529238960780
+    second: barn1_31
+  - first:
+      213: 1804668486013218642
+    second: barn1_32
+  - first:
+      213: 6917674149261164848
+    second: barn1_33
+  - first:
+      213: 8427100300499490948
+    second: barn1_34
+  - first:
+      213: 9022473482275432492
+    second: barn1_35
+  - first:
+      213: -3160964155728023180
+    second: barn1_36
+  - first:
+      213: 5311386766981982358
+    second: barn1_37
+  - first:
+      213: 8158012035271259011
+    second: barn1_38
+  - first:
+      213: -7656154837386776760
+    second: barn1_39
+  - first:
+      213: 7667909271087648008
+    second: barn1_40
+  - first:
+      213: -7751467870218881365
+    second: barn1_41
+  - first:
+      213: 3272138570190064682
+    second: barn1_42
+  - first:
+      213: -7400988557234034663
+    second: barn1_43
+  - first:
+      213: -8510025874547033567
+    second: barn1_44
+  - first:
+      213: -3939569896052098039
+    second: barn1_45
+  - first:
+      213: -8259455780300140398
+    second: barn1_46
+  - first:
+      213: -3906800111420075056
+    second: barn1_47
+  - first:
+      213: -7535186904333302593
+    second: barn1_48
+  - first:
+      213: -5512246831346939099
+    second: barn1_49
+  - first:
+      213: -8576225150456612345
+    second: barn1_50
+  - first:
+      213: -3262221756192159009
+    second: barn1_51
+  - first:
+      213: -5034570683163446349
+    second: barn1_52
+  - first:
+      213: -8105807058197827492
+    second: barn1_53
+  - first:
+      213: -6660795492841611311
+    second: barn1_54
+  - first:
+      213: -9114543327500102170
+    second: barn1_55
+  - first:
+      213: -1282676616198141097
+    second: barn1_56
+  - first:
+      213: 6244097057216061464
+    second: barn1_57
+  - first:
+      213: -4355162549577333143
+    second: barn1_58
+  - first:
+      213: -1574419641112837945
+    second: barn1_59
+  - first:
+      213: -856136670392919555
+    second: barn1_60
+  - first:
+      213: 3302057411113798508
+    second: barn1_61
+  - first:
+      213: 872941666775926500
+    second: barn1_62
+  - first:
+      213: 5205576454320762065
+    second: barn1_63
+  - first:
+      213: -3893998695068923458
+    second: barn1_64
+  - first:
+      213: 7088616426663318138
+    second: barn1_65
+  - first:
+      213: -8540837102871323549
+    second: barn1_66
+  - first:
+      213: -1347353166707497872
+    second: barn1_67
+  - first:
+      213: 353431056529453289
+    second: barn1_68
+  - first:
+      213: 2513908845328946120
+    second: barn1_69
+  - first:
+      213: 3279693536605660238
+    second: barn1_70
+  - first:
+      213: -3002391231997777131
+    second: barn1_71
+  - first:
+      213: -2947371648963130565
+    second: barn1_72
+  - first:
+      213: 5547870768890865809
+    second: barn1_73
+  - first:
+      213: -3789454963604521088
+    second: barn1_74
+  - first:
+      213: -6481919964130195389
+    second: barn1_75
+  - first:
+      213: -6339753450783066757
+    second: barn1_76
+  - first:
+      213: -550754646179337997
+    second: barn1_77
+  - first:
+      213: 3581865122057325794
+    second: barn1_78
+  - first:
+      213: 1824831642791953929
+    second: barn1_79
+  - first:
+      213: 5476541936059635475
+    second: barn1_80
+  - first:
+      213: -4513766167193668242
+    second: barn1_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barn1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1255
+        width: 192
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a1e1886b1975420800000000000000
+      internalID: 2618721921492982344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1255
+        width: 192
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659770227e361820800000000000000
+      internalID: 2888564870896653672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1215
+        width: 190
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cfdfc6caa1d4740800000000000000
+      internalID: 5137792077764885661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_3
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1439
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b52e1b2ed4fb53f0800000000000000
+      internalID: -910865264569080396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1439
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b59cfb2a3e097fc0800000000000000
+      internalID: -3496747992667613774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1215
+        width: 190
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd7c9e3648bcc9c0800000000000000
+      internalID: -3905544164999397956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_6
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1439
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a4d93142055cad0800000000000000
+      internalID: -2682649887151142356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_7
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1439
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2c2b7d796935840800000000000000
+      internalID: 5211674772700840627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1359
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4015cb1e224f484c0800000000000000
+      internalID: -4286032514696589052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1355
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3fcae0b00ee8e60800000000000000
+      internalID: 7966551128960463802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1355
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b9335b61fbb9c60800000000000000
+      internalID: 7826058881736612755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1359
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa0860cf91803fe0800000000000000
+      internalID: -1211325776634836312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_12
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1355
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9166575591d73dc0800000000000000
+      internalID: -3659225732869627491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_13
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1355
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdbb305482f244c0800000000000000
+      internalID: -4304611643717075464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1263
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cb1f2d575386d40800000000000000
+      internalID: 5577766918664862727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1274
+        width: 113
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee92f93c80945e00800000000000000
+      internalID: 1032609146516709089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_16
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1279
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445c4ef04c243f930800000000000000
+      internalID: 4175754689350255940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_17
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1263
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbde6938f8b252ae0800000000000000
+      internalID: -1574804599308096065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_18
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1274
+        width: 113
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc8feac4de301210800000000000000
+      internalID: 1301609375968758961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_19
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1279
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaefb96f192eb980800000000000000
+      internalID: -8521328230043489558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3ab09bf4cd44970800000000000000
+      internalID: 8738351411970679804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1202
+        width: 130
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601b5e0d1523966f0800000000000000
+      internalID: -690965740846206714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1218
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a1fcc98ef648780800000000000000
+      internalID: -8681691136809559406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1202
+        width: 130
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9e23a13e9fb5dc0800000000000000
+      internalID: -3649048319261218318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_24
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1218
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb4f61d926829580800000000000000
+      internalID: -8821841205899867141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1215
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b164e5497e64f60800000000000000
+      internalID: 8018350811002575660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_26
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1055
+        width: 161
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7b5068088acaa40800000000000000
+      internalID: 5380860924758701986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_27
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1215
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5bb8a21898283e0800000000000000
+      internalID: -2052927292269939236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_28
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1055
+        width: 129
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a52a5fd350fa270800000000000000
+      internalID: 8263829604920351278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f06b946a284d1f0800000000000000
+      internalID: -1021047564793409678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1183
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b7536e04bb4f810800000000000000
+      internalID: 1798268038642236166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1151
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4756a6a9f9b3c8ab0800000000000000
+      internalID: -5004559529238960780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1183
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fe82e2d687b0910800000000000000
+      internalID: 1804668486013218642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_33
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1148
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0314d92ccf3800060800000000000000
+      internalID: 6917674149261164848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_34
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1193
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4881cd9131313f470800000000000000
+      internalID: 8427100300499490948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 859
+        width: 385
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28a86a34d3463d70800000000000000
+      internalID: 9022473482275432492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_36
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1144
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471b61e09dff124d0800000000000000
+      internalID: -3160964155728023180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1148
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698eba6af16d5b940800000000000000
+      internalID: 5311386766981982358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_38
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1144
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38374bb19b4173170800000000000000
+      internalID: 8158012035271259011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_39
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1144
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f2c2c4dbfdfb590800000000000000
+      internalID: -7656154837386776760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_40
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1148
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d8a111bd2e96a60800000000000000
+      internalID: 7667909271087648008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_41
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1144
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ffb38a014d6490800000000000000
+      internalID: -7751467870218881365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_42
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1068
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c880c61b8f86d20800000000000000
+      internalID: 3272138570190064682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_43
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1066
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918a55b8e186a4990800000000000000
+      internalID: -7400988557234034663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_44
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1068
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12abd3e1e8056e980800000000000000
+      internalID: -8510025874547033567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1066
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cfdf16d06d359c0800000000000000
+      internalID: -3939569896052098039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 856
+        width: 138
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290d9217ab4806d80800000000000000
+      internalID: -8259455780300140398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_47
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 892
+        width: 34
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3995e6ff148c9c0800000000000000
+      internalID: -3906800111420075056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_48
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 885
+        width: 154
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c9030f63ad6790800000000000000
+      internalID: -7535186904333302593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_49
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 917
+        width: 34
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b0b4746b09083b0800000000000000
+      internalID: -5512246831346939099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_50
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 890
+        width: 34
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a33491aa02bf880800000000000000
+      internalID: -8576225150456612345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda8d93c8924ab2d0800000000000000
+      internalID: -3262221756192159009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_52
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 543
+        width: 130
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3727153ac912ab0800000000000000
+      internalID: -5034570683163446349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_53
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 758
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50b34e4d63628f80800000000000000
+      internalID: -8105807058197827492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_54
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 767
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df17a72ac91093a0800000000000000
+      internalID: -6660795492841611311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_55
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 735
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e513727223a28180800000000000000
+      internalID: -9114543327500102170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_56
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 767
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b4fc9d964033ee0800000000000000
+      internalID: -1282676616198141097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 159
+        width: 769
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810ec6ed03d77a650800000000000000
+      internalID: 6244097057216061464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 710
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966cb5d5cba5f83c0800000000000000
+      internalID: -4355162549577333143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_59
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 479
+        width: 17
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c042149da9862ae0800000000000000
+      internalID: -1574419641112837945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_60
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 559
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df95b0afb346e14f0800000000000000
+      internalID: -856136670392919555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 543
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b426968b343dd20800000000000000
+      internalID: 3302057411113798508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 479
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e601d522df4d1c00800000000000000
+      internalID: 872941666775926500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 479
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2de2743ced3840800000000000000
+      internalID: 5205576454320762065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 479
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9059071dcb5f9c0800000000000000
+      internalID: -3893998695068923458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 479
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72144c3513df5260800000000000000
+      internalID: 7088616426663318138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 479
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cd0eef7e9d87980800000000000000
+      internalID: -8540837102871323549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_67
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 415
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074e667fe6d3d4de0800000000000000
+      internalID: -1347353166707497872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_68
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 415
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e077016ca3a7e400800000000000000
+      internalID: 353431056529453289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_69
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 415
+        width: 71
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c35b8b86c233e220800000000000000
+      internalID: 2513908845328946120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 415
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44668d15efc38d20800000000000000
+      internalID: 3279693536605660238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 387
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b6604f41d5556d0800000000000000
+      internalID: -3002391231997777131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 319
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bce72e915d817d0800000000000000
+      internalID: -2947371648963130565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_73
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1986387021ffdfc40800000000000000
+      internalID: 5547870768890865809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_74
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 319
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ff20ab9c6296bc0800000000000000
+      internalID: -3789454963604521088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_75
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 299
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348c183a2289b06a0800000000000000
+      internalID: -6481919964130195389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_76
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 287
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75b48273dba408a0800000000000000
+      internalID: -6339753450783066757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 287
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a51c31935b58f0800000000000000
+      internalID: -550754646179337997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_78
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 287
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8699d95755b130800000000000000
+      internalID: 3581865122057325794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_79
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 190
+        width: 114
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906c183f5ba135910800000000000000
+      internalID: 1824831642791953929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_80
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 224
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3175d58ffd5900c40800000000000000
+      internalID: 5476541936059635475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barn1_81
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65be3df591eb51c0800000000000000
+      internalID: -4513766167193668242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barn1_0: 2618721921492982344
+      barn1_1: 2888564870896653672
+      barn1_10: 7826058881736612755
+      barn1_11: -1211325776634836312
+      barn1_12: -3659225732869627491
+      barn1_13: -4304611643717075464
+      barn1_14: 5577766918664862727
+      barn1_15: 1032609146516709089
+      barn1_16: 4175754689350255940
+      barn1_17: -1574804599308096065
+      barn1_18: 1301609375968758961
+      barn1_19: -8521328230043489558
+      barn1_2: 5137792077764885661
+      barn1_20: 8738351411970679804
+      barn1_21: -690965740846206714
+      barn1_22: -8681691136809559406
+      barn1_23: -3649048319261218318
+      barn1_24: -8821841205899867141
+      barn1_25: 8018350811002575660
+      barn1_26: 5380860924758701986
+      barn1_27: -2052927292269939236
+      barn1_28: 8263829604920351278
+      barn1_29: -1021047564793409678
+      barn1_3: -910865264569080396
+      barn1_30: 1798268038642236166
+      barn1_31: -5004559529238960780
+      barn1_32: 1804668486013218642
+      barn1_33: 6917674149261164848
+      barn1_34: 8427100300499490948
+      barn1_35: 9022473482275432492
+      barn1_36: -3160964155728023180
+      barn1_37: 5311386766981982358
+      barn1_38: 8158012035271259011
+      barn1_39: -7656154837386776760
+      barn1_4: -3496747992667613774
+      barn1_40: 7667909271087648008
+      barn1_41: -7751467870218881365
+      barn1_42: 3272138570190064682
+      barn1_43: -7400988557234034663
+      barn1_44: -8510025874547033567
+      barn1_45: -3939569896052098039
+      barn1_46: -8259455780300140398
+      barn1_47: -3906800111420075056
+      barn1_48: -7535186904333302593
+      barn1_49: -5512246831346939099
+      barn1_5: -3905544164999397956
+      barn1_50: -8576225150456612345
+      barn1_51: -3262221756192159009
+      barn1_52: -5034570683163446349
+      barn1_53: -8105807058197827492
+      barn1_54: -6660795492841611311
+      barn1_55: -9114543327500102170
+      barn1_56: -1282676616198141097
+      barn1_57: 6244097057216061464
+      barn1_58: -4355162549577333143
+      barn1_59: -1574419641112837945
+      barn1_6: -2682649887151142356
+      barn1_60: -856136670392919555
+      barn1_61: 3302057411113798508
+      barn1_62: 872941666775926500
+      barn1_63: 5205576454320762065
+      barn1_64: -3893998695068923458
+      barn1_65: 7088616426663318138
+      barn1_66: -8540837102871323549
+      barn1_67: -1347353166707497872
+      barn1_68: 353431056529453289
+      barn1_69: 2513908845328946120
+      barn1_7: 5211674772700840627
+      barn1_70: 3279693536605660238
+      barn1_71: -3002391231997777131
+      barn1_72: -2947371648963130565
+      barn1_73: 5547870768890865809
+      barn1_74: -3789454963604521088
+      barn1_75: -6481919964130195389
+      barn1_76: -6339753450783066757
+      barn1_77: -550754646179337997
+      barn1_78: 3581865122057325794
+      barn1_79: 1824831642791953929
+      barn1_8: -4286032514696589052
+      barn1_80: 5476541936059635475
+      barn1_81: -4513766167193668242
+      barn1_9: 7966551128960463802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

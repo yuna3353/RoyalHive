@@ -122,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 54e28f3f-f869-4e1b-b638-a8a992b357c0_0
+      name: BeeSprites_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 561
-        width: 453
-        height: 458
+        x: 83
+        y: 555
+        width: 387
+        height: 388
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b51e4e20382c8eff0800000000000000
-      internalID: -6541531495997093
+      spriteID: e2949507f2f3a6b458ded43e916a95fa
+      internalID: -739896647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 54e28f3f-f869-4e1b-b638-a8a992b357c0_1
+      name: BeeSprites_1
       rect:
         serializedVersion: 2
-        x: 508
-        y: 561
-        width: 452
-        height: 458
+        x: 513
+        y: 140
+        width: 387
+        height: 388
+      alignment: 9
+      pivot: {x: 0.54281527, y: -0.7156721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbe0eb67976d0148bb1e033d9c8aff0
+      internalID: 1295831512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSprites_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 555
+        width: 387
+        height: 388
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a4b00c0046c993b0800000000000000
-      internalID: -5505151091102141271
+      spriteID: e9c55b76aee79d14c8f6519f1e641090
+      internalID: 1878775377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 54e28f3f-f869-4e1b-b638-a8a992b357c0_2
+      name: BeeSprites_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 88
-        width: 458
-        height: 453
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 83
+        y: 140
+        width: 387
+        height: 388
+      alignment: 9
+      pivot: {x: 0.54281527, y: -0.7156721}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 673a848bbf6a510a0800000000000000
-      internalID: -6911434453071387786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 54e28f3f-f869-4e1b-b638-a8a992b357c0_3
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 93
-        width: 460
-        height: 443
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 3, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9f45ad4aacc8ee40800000000000000
-      internalID: 5686019561374437274
+      spriteID: bfe8b8975352eeb49b5680091eab8d23
+      internalID: 953266590
       vertices: []
       indices: 
       edges: []
@@ -228,6 +228,10 @@ TextureImporter:
       54e28f3f-f869-4e1b-b638-a8a992b357c0_2: -6911434453071387786
       54e28f3f-f869-4e1b-b638-a8a992b357c0_3: 5686019561374437274
       54e28f3f-f869-4e1b-b638-a8a992b357c0_4: -175524158
+      BeeSprites_0: -739896647
+      BeeSprites_1: 1295831512
+      BeeSprites_2: 1878775377
+      BeeSprites_3: 953266590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
