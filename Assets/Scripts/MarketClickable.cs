@@ -1,4 +1,6 @@
+
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MarketClickable : MonoBehaviour
 {
@@ -7,6 +9,13 @@ public class MarketClickable : MonoBehaviour
 
     private void OnMouseDown()
     {
+        // UI 위를 클릭했다면 마켓을 열지 않음
+        if (EventSystem.current != null &&
+            EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         if (marketManager == null)
         {
             Debug.LogWarning(

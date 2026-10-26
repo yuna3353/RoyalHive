@@ -192,9 +192,12 @@ public class GameTimeManager : MonoBehaviour
         AdvanceToNextDay();
     }
 
+
     private void AdvanceToNextDay()
     {
         isChangingDay = true;
+
+        Season previousSeason = currentSeason;
 
         currentDay++;
 
@@ -204,7 +207,10 @@ public class GameTimeManager : MonoBehaviour
             AdvanceSeason();
         }
 
-        if (randomizeWeatherEveryDay)
+        // 매일 날씨를 변경하거나,
+        // 계절이 바뀌면 새로운 계절에 맞는 날씨를 선택한다.
+        if (randomizeWeatherEveryDay ||
+            currentSeason != previousSeason)
         {
             SelectRandomWeather();
         }
@@ -222,6 +228,7 @@ public class GameTimeManager : MonoBehaviour
 
         isChangingDay = false;
     }
+
 
     private void AdvanceSeason()
     {
@@ -246,6 +253,7 @@ public class GameTimeManager : MonoBehaviour
         }
     }
 
+
     private void SelectRandomWeather()
     {
         if (weatherSettings == null ||
@@ -258,18 +266,24 @@ public class GameTimeManager : MonoBehaviour
 
         float totalWeight = 0f;
 
+        // 현재 계절에 허용되는 날씨만 확률에 포함한다.
         foreach (WeatherSetting setting in weatherSettings)
         {
-            if (setting != null)
+            if (setting == null ||
+                !IsWeatherAllowedInSeason(
+                    setting.weather,
+                    currentSeason))
             {
-                totalWeight += Mathf.Max(0f, setting.weight);
+                continue;
             }
+
+            totalWeight += Mathf.Max(0f, setting.weight);
         }
 
         if (totalWeight <= 0f)
         {
             currentWeather = Weather.Sunny;
-            currentHoneyProductionMultiplier = 1f;
+            ApplyCurrentWeatherMultiplier();
             return;
         }
 
@@ -282,19 +296,27 @@ public class GameTimeManager : MonoBehaviour
 
         foreach (WeatherSetting setting in weatherSettings)
         {
-            if (setting == null)
+            if (setting == null ||
+                !IsWeatherAllowedInSeason(
+                    setting.weather,
+                    currentSeason))
             {
                 continue;
             }
 
-            accumulatedWeight += Mathf.Max(
-                0f,
-                setting.weight
-            );
+            float weight = Mathf.Max(0f, setting.weight);
 
-            if (randomValue <= accumulatedWeight)
+            if (weight <= 0f)
+            {
+                continue;
+            }
+
+            accumulatedWeight += weight;
+
+            if (randomValue < accumulatedWeight)
             {
                 currentWeather = setting.weather;
+
                 currentHoneyProductionMultiplier =
                     Mathf.Max(
                         0f,
@@ -305,6 +327,40 @@ public class GameTimeManager : MonoBehaviour
             }
         }
     }
+
+
+    private bool IsWeatherAllowedInSeason(
+        Weather weather,
+        Season season)
+    {
+        switch (season)
+        {
+            case Season.Spring:
+                return weather == Weather.Sunny ||
+                       weather == Weather.Cloudy ||
+                       weather == Weather.Rainy;
+
+            case Season.Summer:
+                return weather == Weather.Sunny ||
+                       weather == Weather.Cloudy ||
+                       weather == Weather.Rainy;
+
+            case Season.Autumn:
+                return weather == Weather.Sunny ||
+                       weather == Weather.Cloudy ||
+                       weather == Weather.Rainy;
+
+            case Season.Winter:
+                return weather == Weather.Sunny ||
+                       weather == Weather.Cloudy ||
+                       weather == Weather.Rainy ||
+                       weather == Weather.Snowy;
+
+            default:
+                return false;
+        }
+    }
+
 
     private void ApplyCurrentWeatherMultiplier()
     {
