@@ -353,7 +353,6 @@ public class GameTimeManager : MonoBehaviour
             case Season.Winter:
                 return weather == Weather.Sunny ||
                        weather == Weather.Cloudy ||
-                       weather == Weather.Rainy ||
                        weather == Weather.Snowy;
 
             default:
